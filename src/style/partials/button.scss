@@ -1,0 +1,18 @@
+button {
+  align-self: flex-end;
+  color: #94C2ED;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #F2F5F8;
+  outline: none;
+  transition: all .3s ease;
+  &:hover {
+    color: darken(#94C2ED, 7%);
+  }
+  &:active {
+    outline: none;
+  }
+}
