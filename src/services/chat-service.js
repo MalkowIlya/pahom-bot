@@ -1,5 +1,5 @@
 export default class ChatService {
-    _apiBase = 'https://shavlu.ga:5000/question';
+    _apiBase = '';
 
     async getReply(message, author) {
         const answer = await fetch(this._apiBase, {
